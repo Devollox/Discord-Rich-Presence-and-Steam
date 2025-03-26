@@ -44,8 +44,7 @@ function discordRich() {
 
 			const buttons = []
 			const gameDetails = [gamesCount, gamesScreenshots, gamesRecommended]
-			let smallText = ''
-			let smallImage = ''
+			let smallText: string, smallImage: string
 
 			buttons.push({
 				label: `Мой Steam`,
